@@ -1,0 +1,16 @@
+@use 'src/styles/vars' as v;
+
+.app {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  background-color: v.$color-inner;
+  min-height: 100vh;
+  padding: 1rem;
+  &__header {
+    text-align: center;
+    img {
+      max-width: 150px;
+    }
+  }
+}
